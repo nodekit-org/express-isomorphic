@@ -1,6 +1,6 @@
 import chalk from 'chalk';
-import express from "express";
-import util from 'util';
+import * as express from 'express';
+import * as util from 'util';
 
 import { isProduction } from './env';
 import { log } from './utils/log';

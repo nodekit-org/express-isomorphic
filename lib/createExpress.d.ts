@@ -1,4 +1,4 @@
-import express from "express";
+import * as express from 'express';
 import { State } from './state';
 declare const createExpress: CreateExpress;
 export default createExpress;
